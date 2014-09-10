@@ -2,8 +2,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width="device-width; initial-scale=1.0"/>
-<title>Emily Sokolosky</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact</title>
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css">
 
 
 
@@ -11,30 +13,53 @@
 </head>
 
 <body>
+<div class="container">
 
 
-<h1>EMILY SOKOLOSKY</h1>
-
-<ul>
+<h1><a name="top"><a href="index.html">EMILY SOKOLOSKY</a></h1>
+<nav>
+<ul class="list-unstyled">
 
 <li>WORK</li>
-<li>ABOUT</li>
-<li>CONTACT</li>
+
+</ul>
+
+<ul class="list-unstyled">
+<LI><a href="bikebasics.html">BICYCLE BASICS</a></LI>
+<LI><a href="ems.html">EMS</a></LI>
+<LI><a href="hipster.html">INSTANT HIPSTER</a></LI>
+<LI><a href="jse.html">JURIED EXHIBITION</a></LI>
+<LI><a href="lovenotes.html">LOVE NOTES</a></LI>
+<LI><a href="open.html">OPEN</a></LI>
+<LI><a href="pch.html">PACIFIC COAST</a></LI>
+<LI><a href="sportcast.html">SPORTCAST</a></LI>
+<LI><a href="spring.html">SPRING</a></LI>
+<LI><a href="summer.html">SUMMER</a></LI>
+<LI><a href="thanks.html">THANKS</a></LI>
+<LI><a href="www.html">WOMEN WITH WIT</a></LI>
+
+</ul>
+
+<ul class="list-unstyled">
+
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+
+</ul>
+</nav>
+
+
+
+<ul class="list-unstyled">
+
+<li><img class="img-responsive" src="images/mail.gif" alt="email"/></li>
+<li><img class="img-responsive" src="images/house.gif" alt="home"/></li>
+<li><img class="img-responsive" src="images/phone.gif" alt="phone"/></li>
 
 </ul>
 
 
-
-<ul>
-
-<li><img src="images/mail.gif" alt="email"/></li>
-<li><img src="images/house.gif" alt="home"/></li>
-<li><img src="images/phone.gif" alt="phone"/></li>
-
-</ul>
-
-
-<ul>
+<ul class="list-unstyled">
 <li>emilysoko17@gmail.com</li>
 <li>304-344-1008</li>
 <li>2106 Presidential Drive
@@ -43,14 +68,50 @@ Charleston, WV 25314</li>
 </ul>
 
 
-<ul>
-<li><img src="images/twitter.gif" alt="twitter"/></li>
-<li><img src="images/in.gif" alt="linkedin"/></li>
-<li><img src="images/facebook.gif" alt="facebook"/></li>
+<ul class="list-unstyled">
+<li><a href="www.twitter.com"><img src="images/twitter.gif" alt="twitter"/></a></li>
+<li><a href="www.linkedin.com"><img src="images/in.gif" alt="linkedin"/></a></li>
+<li><a href="www.facebook.com"><img src="images/facebook.gif" alt="facebook"/></a></li>
 <li>
 
 </ul>
 
+<form class="visible-lg" action="contact.php" method="POST" enctype="plain">
+
+
+				<div class="grid_7">
+					<label for="name">Name:</label>
+					<input type="text" name="name" id="name">
+				</div>
+
+				<div>
+					<label  for="subject">Email:</label>
+					<input type="text" name="email" id="subject">
+				</div>
+				
+				<div>
+					<label for="message">Message:</label>
+					<textarea name="message" id="message"></textarea>
+					<br>
+					<div class="buttons">
+					<input type="submit" value="send">
+					<input type="reset" value="reset">
+					</div><!--This closes button"-->
+				</div>
+
+
+
+		</form>
+
+<footer class="visible-xs">
+<h5><a href="#top">BACK TO TOP</a></h5>
+</footer>
+
+</div><!--This closes container"-->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js">
 
 </body>
 
