@@ -1,0 +1,76 @@
+
+body{
+width:100%;
+font-family: 'Roboto', sans-serif;
+font-size:16px;
+}
+
+p{
+font-weight: 300;
+}
+
+a{
+text-decoration:none;
+color:#000000;
+}
+
+
+.header{
+
+
+}
+
+.contact{
+float:left;
+}
+
+.contact li img{
+margin-bottom:20px;
+}
+
+.info ul{
+
+font-size: 16px;
+}
+
+.info ul li{
+margin-top:52px;
+
+}
+
+.thumbnails img
+{
+margin-bottom:20px;
+}
+
+.firstnav li{
+font-size:16px;
+float:left;
+padding-left:5px;
+margin-right: 25px;
+}
+
+.navbar-header{
+float:left;
+padding-left: 50px;
+padding-right:50px;
+margin-top:-20px;
+}
+
+.pictures img{
+margin-bottom:10px;
+}
+
+.navbar-header span{
+background-color:black;
+}
+
+.footer{
+border-top:solid 1px black;
+}
+
+.resume h3{
+border-top:solid 1px black;
+padding-top:10px;
+text-align:center;
+}
