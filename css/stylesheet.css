@@ -5,6 +5,14 @@ font-family: 'Roboto', sans-serif;
 font-size:16px;
 }
 
+
+.container{
+margin-top:20px;
+margin-bottom:38px;
+
+
+}
+
 p{
 font-weight: 300;
 }
@@ -17,13 +25,39 @@ color:#000000;
 
 
 
-.contact{
+.contact li{
 float:left;
 }
 
-.contact li img{
-margin-bottom:20px;
+.icons li{
+float:left;
+margin-top:10px;
+
+
 }
+
+
+.touch h4{
+margin-top:20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .info ul{
 
@@ -37,23 +71,16 @@ margin-top:52px;
 
 .thumbnails img
 {
-margin-bottom:20px;
+margin-top:20px;
 }
 
 
 
-.firstnav li{
-font-size:16px;
-float:left;
-
-margin-right: 10%;
-}
 
 
 
-.navbar-header{
-margin-top:-20px;
-}
+
+
 
 .pictures img{
 margin-bottom:10px;
@@ -63,26 +90,34 @@ margin-bottom:10px;
 background-color:black;
 }
 
-.footer{
+.footer h5{
 border-top:solid 1px black;
-}
-
-.resume h3{
-border-top:solid 1px black;
-padding-top:10px;
-text-align:center;
+padding-top:35px;
 }
 
 
-.second button{
-float:left;
-margin-top:-10px;
+
+
+
+
+
+.bio p{
+margin-top:10px;
+
 
 }
 
 @media (max-width:767px) {
-.firstnav ul{
-width: 80%;
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse{
+margin-left:0px;
+
+}
+
+
+
+.icons li{
+margin-right:15%;
 
 }
 
@@ -91,59 +126,140 @@ width: 80%;
 
 
 
+.navbar-nav{
+margin-top:-14px;
+
+text-align:right;
 }
+
+
+.bio p{
+margin-top:10px;
+
+
+}
+
+
+.portrait img{
+
+margin-top:20px;
+
+
+
+}
+
+
+
+
+
+
 
 
 
 @media (min-width:768px) {
 
-
-
-.navbar-toggle {
-display:block;
+.nav ul{
 float:right;
-left: 58px;
-top: 30px;
+
+
+
 }
 
-
-.firstnave ul{
-width:100%
-margin-left:0px;
+.nav ul li{
 float:left;
-}
 
-.firstnav li{
-font-size:16px;
-
-
-margin-right: 5%;
 }
 
 
+.icons li{
+margin-right:40px;
 
-.second button{
-margin-top:2px;
-margin-bottom:30px;
-}
-
-.navbar-collapse.collapse {
-display:none !important;
-}
-
-.navbar-collapse.collapse.in{
-display:block !important;
 }
 
 
+
+
+
+}
+
+
+@media (min-width: 992px){
+
+
+
+icons li{
+margin-right:15%;
+
+
+}
 
 
 .navbar-nav li{
-
-
-float:none;
+padding-bottom:30px;
 
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media (min-width:550px) {
+.portrait img{
+height:70%;
+width:70%;
+margin-left:15%;
+margin-right:15%;
+
+}
+
+.icons ul{
+margin-left:80px;
+
+}
+
+
+
+
+.active {
+text-decoration:underline;
+font-weight: 600;
+
+}
+
+
+
+
+}
+
+
+.contact ul{
+text-align:center;
+
+}
+
+
+.contact li{
+text-align:center;
+
+}
+
+
+
+
 
