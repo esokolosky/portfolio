@@ -1,15 +1,16 @@
+
+
 body{
 width:100%;
 font-family: 'Roboto', sans-serif;
 font-size:16px;
+padding-bottom:20px;
 }
 
 
 .container{
 margin-top:20px;
 margin-bottom:38px;
-
-
 }
 
 h4{
@@ -19,7 +20,6 @@ padding-top:20px;
 h5{
 padding-top:20px;
 padding-bottom:20px;
-
 }
 
 a:hover{
@@ -40,11 +40,7 @@ color:#000000;
 .active {
 text-decoration:underline;
 font-weight: 600;
-
 }
-
-
-
 
 .contact li{
 float:left;
@@ -58,18 +54,15 @@ margin-top:10px;
 
 .touch h4{
 margin-top:20px;
-
 }
 
 
 .info ul{
-
 font-size: 16px;
 }
 
 .info ul li{
 margin-top:52px;
-
 }
 
 .thumbnails img
@@ -91,40 +84,30 @@ margin-top:50px;
 }
 
 
-
-
-
-
-
-
 .bio p{
 margin-top:10px;
 }
 
-@media (max-width:767px) {
+.row img{
+max-width:40%;
+}
+.row li img{
+max-width:60%;
+}
+
+
+@media all and (max-width:767px) {
 
 .container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse{
 margin-left:0px;
-
 }
-
-
-
-
 
 .icons li{
 margin-right:15%;
-
 }
-
-
-
-
-
 
 .navbar-nav{
 margin-top:-14px;
-
 text-align:right;
 }
 
@@ -135,7 +118,6 @@ margin-top:10px;
 
 
 .portrait img{
-
 margin-top:20px;
 }
 
@@ -143,26 +125,15 @@ margin-top:20px;
 
 .row li{
 padding-bottom:30px;
-
-
-
-
 }
 
 .row li img{
 max-width:60%;
 }
+
 }
 
-
-
-
-
-
-
-
-
-@media (min-width:768px) {
+@media all and (min-width:768px) {
 
 .nav ul{
 float:right;
@@ -175,22 +146,14 @@ float:left;
 
 .icons li{
 margin-right:40px;
+}
 
 }
 
 
+@media all and (min-width: 992px){
 
-
-
-}
-
-
-@media (min-width: 992px){
-
-
-
-
-icons li{
+.icons li{
 margin-right:15%;
 }
 
@@ -206,34 +169,5 @@ margin-top:-4%;
 .header img{
 max-width:40%;
 }
-}
-
-
-@media {max-width:550px){
-
-.row img{
-max-width:40%;
 
 }
-.row li img{
-max-width:60%;
-}
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
